@@ -1,8 +1,6 @@
 
 const inserirLivros = document.getElementById('livros')
 
-
-
 function exibirLivrosNaTela(listaDeLivros) {
     inserirLivros.innerHTML = '';
     listaDeLivros.forEach(livro => {
